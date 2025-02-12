@@ -1,8 +1,15 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
 h1{
     color: blue;
 text-decoration: underline;
 font-weight: bolder;
 text-align: center;
+
 }
 header{
     background-color: bisque;
@@ -21,4 +28,41 @@ header nav ul li a{
     text-decoration: none;
     font-size: large;
     font-weight: 600;
+}
+#box1 {
+
+background-color: lightcoral;
+padding: 40px;
+border: solid 2px black; 
+}
+
+#box2 {
+margin-left: 80%;
+background-color: lightcoral;
+padding: 40px;
+border: solid 2px black; 
+}
+
+#box3 {
+
+background-color: lightcoral;
+padding: 40px;
+border: solid 2px black; 
+}
+.box{
+  width: 400px;
+height: 100px;
+    margin: 20px;
+    background-color: coral;
+border: 4px solid black;
+padding: 20px;
+}
+.content-box{
+
+    box-sizing: content-box;
+}
+
+.border-box{
+box-sizing: border-box;
+
 }
