@@ -1,0 +1,36 @@
+.display-block {
+background-color: aqua;
+display: block;
+width: 100%;
+height: 100px;
+padding: 40px;
+margin-top: 60px;
+
+}
+
+
+h1 {
+background-color: rgb(236, 19, 19);
+}
+
+
+
+.display-inline {
+background-color: rgb(221, 231, 21);
+display: inline;
+padding-left: 20px;
+}
+
+.inline-block {
+background-color: brown;
+display: inline-block;
+
+}
+
+li {
+
+list-style: none;
+display: inline-block;
+    margin-right: 20px;
+}
+
