@@ -1,0 +1,51 @@
+
+
+.position-static{
+    
+    background-color: blue;
+    position: static;
+    
+    }
+    
+    .position-relative{
+    background-color: brown;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    }
+
+
+.position-absolute{
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    }
+    .position-container{
+        background-color: blueviolet;
+        position: relative;
+    }
+    .position-fixed{
+        background-color: darkorange;
+        position: fixed;
+        top: 0px;
+        
+    }
+
+    .position-sticky{
+        background-color: green;
+        position: sticky;
+        bottom: 0px;
+        height: 40px;
+    }
+    .float-image {
+width: 200px; ;
+float: left;
+margin-right: 20px;
+
+    }
+    #float-right {
+        float: right;
+        margin: 20px;
+        width: 150px;
+    }
