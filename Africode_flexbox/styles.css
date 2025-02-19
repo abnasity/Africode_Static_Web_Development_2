@@ -1,0 +1,23 @@
+.container {
+display: flex;
+padding: 20px;
+border: 2px solid black;
+height: 300px;
+width: 50%;
+flex-wrap: wrap;
+
+align-items: stretch;
+
+
+}
+.item {
+
+padding: 10px;
+background-color: blue;
+margin: 10px;
+color: white;
+height: 60px;
+border: 1px solid black;
+
+
+}

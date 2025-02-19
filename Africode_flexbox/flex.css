@@ -1,0 +1,38 @@
+.container {
+display: flex;
+width: 60%;
+border: 2px solid black;
+
+
+}
+.item {
+background-color: blue;
+margin: 10px;
+padding: 10px;
+flex-basis: 200px;
+flex-shrink: 1;
+flex-grow: 1;
+}
+
+/*.item:first-child {
+    flex-shrink: 2;
+}
+.item:nth-child(2) {
+
+    flex-shrink: 3;
+}
+    /* shorthand  flex properties
+    .item {
+        background-color: blue;
+        flex:1 1 200;
+        padding: 10px;
+        margin 10px;
+    }
+
+    /*simplified-basis ignored as the items fills the available space 
+    .item {
+        background-color: aliceblue;
+        flex: 1;
+        padding: 10px;
+        margin: 10px;
+    } */
