@@ -1,0 +1,126 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lucida Sans',  sans-serif;
+    background-color: #f5f5f5;
+
+background-color: antiquewhite;
+
+}
+h2, h3{
+    
+    color: blue;
+    font-weight: bolder;
+}
+
+header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+ 
+   
+    
+}
+
+header h3{
+    color: white;
+    
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 8px;
+
+    
+    
+}
+header ul li{
+       color: azure;
+       justify-content: space-between;
+
+}
+header ul li a{
+    text-decoration: none;
+    color: azure;
+   
+    
+}
+
+
+.oli{
+margin-left: 30px;
+margin-bottom: 6px;
+
+
+}
+
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+@media (min-width:577px) {
+    header{
+        background-color: chartreuse;
+    }
+    h2 {
+    
+        color: brown;
+    }
+
+.menu-toggle {
+    display: none;
+}
+
+
+ .menu-toggle:checked + .hamburger-menu + .nav-links {
+    display: flex;
+ }
+ .hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+    }
+
+    @media (min-width:769px) {
+        header{
+            background-color: deeppink;
+        }
+        h2 {
+        
+            color: red;
+        }
+        
+        }
+    
+        @media (min-width: 993px) {
+            header{
+                background-color: blue;
+            }
+            h2 {
+            
+                color: yellow;
+            }
+            
+        }
+
+
+
+
+
+
+
